@@ -54,9 +54,15 @@
 
 }
 .Menu p {
+    display: flex;
     position: relative;
     top: 50%;
     color: #FFF;
     left: 50%;
     font-size: 1.3em;
+}
+.Card{
+    width: 100%;
+    min-height: 70vh;
+    border: 1px solid green;
 }
