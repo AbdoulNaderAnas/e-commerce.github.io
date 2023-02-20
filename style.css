@@ -64,5 +64,17 @@
 .Card{
     width: 100%;
     min-height: 70vh;
+    display: inline-block;
     border: 1px solid green;
 }
+.card-1{
+    display: inline-block;
+    border: 1px solid black;
+    width: 30%;
+    overflow: hidden;
+}
+/*.card-1 img{
+    width: 15%;
+   
+
+}*/
