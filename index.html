@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,36 +9,280 @@
     <title>e-commerce</title>
 </head>
 <body>
-  <div class="container">
-    <div class="logo"> <strong> NASRI ONLINE SHOP</strong></div>
-    <div class="header">
-        <nav class="navbar"> 
-            <ul>
-                <li><a href="" style="color: red;"> Home</a></li>
-                <li><a href="">Medias</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Contacts</a></li>
-               <button><input type="text" placeholder="Recherche"></button>
-            </ul>
-        </nav>
+      <div class="logo"> <strong> NASRI ONLINE SHOP</strong></div>
+ <div class="container">
+    <header class="Navbar">
+    <div class="container">
+      
+        <div class="header">
+            <nav > 
+                <ul>
+                    <li><a href="" style="color: red;"> Acceuil</a></li>
+                    <li><a href="">Produits</a></li>
+                    <li><a href="">Apropos</a></li>
+                    <li><a href="">Contacts</a></li>
+                    <li><a href="index-f.html">Account</a></li>
+                </ul>
+                <img src="images/cart.png" alt="card icon" width="30px">
+            </nav>
+        </div>
+      </div>
+ </header>
+ </div>
+  <div class="row">
+    <div class="col-2">
+        <h1>Donnez vous un autre style!</h1>
+        <p>Le succes est a votre portée</p>
+        <a href="">Explorez maintenant</a>
+    </div>
+    <div class="col-2">
+        <img src="images/image1.png" alt="" >
     </div>
   </div>
-    <div class="Menu">
-        <p>Online easy and rapdly shopping </p>
-<button class="bouton"> View More</button>
+  <section class="categories">
+    <div class="container">
+        <h2>Top categories</h2>
+        <div class="row">
+            <div class="col-3">
+           <img src="images/category-1 (1).jpg" alt="">     
+            </div>
+            <div class="col-3">
+                <img src="images/category-2.jpg" alt="">
+        
+            </div>
+            <div class="col-3">
+                <img src="images/category-3.jpg" alt="">
+            </div>
+        </div>
     </div>
-    <div class="Card">
-        <div class="card-1">
-            <img src="images/istockphoto-1324847242-170667a.jpeg" alt="">
-        </div>
-        <div class="card-1">
-            <img src="images/istockphoto-1402277533-170667a.jpeg" alt="">
-        </div>
-        <div class="card-1">
-            <img src="images/istockphoto-1324847242-170667a.jpeg" alt="">
+
+  </section>
+  <section class="product">
+    <div class="container">
+        <h2>Meilleurs Produits</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-1.jpg" alt="">
+               <div>
+                    <h3>T-short</h3>
+                    <div class="rating">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <p>3000fcfa</p>
+               </div>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg" alt="">
+                <h3>T-short</h3>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <p>3000fcfa</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-3.jpg" alt="">
+                <h3>T-short</h3>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <p>4000fcfa</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-4.jpg" alt="">
+                <h3>T-short</h3>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <p>5000fcfa</p>
+            </div>
         </div>
     </div>
-  
+
+  </section>
+  <!-- nos derniers produits-->
+  <section class="product">
+    <div class="container">
+        <h2>Nos derniers  Produits</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/product-5.jpg" alt="">
+                <h3>T-short</h3>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <p>3000fcfa</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-6.jpg" alt="">
+                <h3>T-short</h3>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <p>3000fcfa</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-7.jpg" alt="">
+                <h3>T-short</h3>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <p>4000fcfa</p>
+            </div>
+            <div class="col-4">
+                <img src="images/product-8.jpg" alt="">
+                <h3>T-short</h3>
+                <div class="rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <p>5000fcfa</p>
+            </div>
+            <section class="product">
+                <div class="container">
+                    <h2>Meilleurs Produits</h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="images/product-9.jpg" alt="">
+                            <h3>T-short</h3>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                            <p>3000fcfa</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/product-10.jpg" alt="">
+                            <h3>T-short</h3>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                            <p>3000fcfa</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/product-11.jpg" alt="">
+                            <h3>T-short</h3>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                            <p>4000fcfa</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="images/product-12.jpg" alt="">
+                            <h3>T-short</h3>
+                            <div class="rating">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                            </div>
+                            <p>5000fcfa</p>
+                        </div>
+                    </div>
+                </div>
+            
+              </section>
+        </div>
+    </div>
+
+  </section>
+  <footer class="footer">
+    <div class="conte">
+        <div class="row">
+            <div class="col">
+                <h4>Entreprise</h4>
+                <ul>
+                    <li> <a href="">A propos de nous</a></li>
+                    <li> <a href="">Nos services</a></li>
+                    <li> <a href="">Politique de Confidentialité</a></li>
+                    <li> <a href="">Affiliation</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Aide</h4>
+                <ul>
+                    <li> <a href="">FAQ</a></li>
+                    <li> <a href="">Expedition</a></li>
+                    <li> <a href="">Retour</a></li>
+                    <li> <a href="">Options de paiement</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Boutique En Ligne</h4>
+                <ul>
+                    <li> <a href="">Montre</a></li>
+                    <li> <a href="">Chaussette</a></li>
+                    <li> <a href="">Chaussure</a></li>
+                    <li> <a href="">T-short</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Suivez-Nous</h4>
+                <div class="medias">
+                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+  </footer>
     
 </body>
 </html>
